@@ -55,7 +55,7 @@ def write_to_txt(content,title):
         print("保存成功")
 
 def main(page):
-    url = 'https://0kkkzz.com/story/daily-ranking?page='+str(page)
+    url = 'https://0kkzz.com/story/daily-ranking?page='+str(page)
     html = get_one_page(url)
     for item in parse_one_page(html):
         detail = get_detail_page(item.get('链接'))
